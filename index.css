@@ -237,12 +237,11 @@ hr {
   position: absolute;
   flex-direction: column;
   padding: 0px 116px;
-  margin-left: 160px;
   width: 200px;
-  background-color: whiteprimary;
   border-radius: 0 3px 3px 0;
   font-size: 0;
   padding-top: 25px;
+  left: 150px;
 }
 
 .hint {
@@ -341,12 +340,12 @@ hr {
 #options {
   margin: 0 auto;
   padding: 0px 354px;
-  margin-top: -350px;
   width: 450px;
   display: flex;
   text-align: center;
   font-size: 0;
   position: absolute;
+  top: 350px;
 }
 
 #options button + button {

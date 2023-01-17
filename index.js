@@ -185,7 +185,7 @@ function showingText() {
       document.getElementById("hideModal").onclick = hideModal;
     } else
       modalMessage.innerHTML =
-        '<h2>You failed...</h2> <p>GAME OVER!</p> <button class="large" id="hideModal">PLAY AGAIN</button> <button id="restartGame" class="large primary">Restart</button>';
+        '<h2>GAME OVER!</h2> <button class="large" id="hideModal">PLAY AGAIN</button> <button id="restartGame" class="large primary">Restart</button>';
     document.getElementById("restartGame").onclick = newGame;
     document.getElementById("hideModal").onclick = hideModal;
   }
